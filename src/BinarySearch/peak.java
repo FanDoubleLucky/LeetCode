@@ -1,5 +1,5 @@
 package BinarySearch;
-class Solution {
+class peak {
     public int peakIndexInMountainArray(int[] A) {
         int N = A.length;
         int lo = 0,hi = N-1;
