@@ -1,6 +1,6 @@
 package Array;
 
-class teemo_attack {
+class temmo_attack {
     public int findPoisonedDuration(int[] timeSeries, int duration) {
         int res = 0;
         int n = timeSeries.length;
