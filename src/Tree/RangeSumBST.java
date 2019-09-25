@@ -1,10 +1,4 @@
 package Tree;
-
-<<<<<<< HEAD
-class RangeSumBST {
-    int sum = 0;
-    public int rangeSumBST(TreeNode root, int L, int R) {
-=======
 /*
 root = [10,5,15,3,7,null,18], L = 7, R = 15, 计算root中所有在[L, R]这个闭区间的和， sum = 32(7+10+15)
               10
@@ -18,17 +12,12 @@ public class RangeSumBST {
 
     static int sum = 0;
     public static int rangeSumBST(TreeNode root, int L, int R) {
->>>>>>> a1f3de56bd122dc03957c87c6c6953b746c0a025
         helper(root, L, R);
 
         return sum;
     }
 
-<<<<<<< HEAD
-    public void helper(TreeNode root, int L, int R){
-=======
     public static void helper(TreeNode root, int L, int R){
->>>>>>> a1f3de56bd122dc03957c87c6c6953b746c0a025
         if(root==null){
             return;
         }
@@ -46,13 +35,9 @@ public class RangeSumBST {
             return;
         }
     }
-<<<<<<< HEAD
-=======
-
 
     public static void main(String[] args) {
         TreeNode root = TreeNode.Load3Level(new int[]{10,5,15,3,7,Integer.MAX_VALUE,18});
         System.out.println(rangeSumBST(root, 7, 15));
     }
->>>>>>> a1f3de56bd122dc03957c87c6c6953b746c0a025
 }
